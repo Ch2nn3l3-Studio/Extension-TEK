@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="secondMission" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedeletion" target="secondCompleteNode" file="delme.txt" path="home"/>
+    </goals>
+
+
+    <nextMission IsSilent="true">Missions/joinTEKw.xml</nextMission>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Luoyu_</sender>
+        <subject>Hmm</subject>
+        <body>什么？！TEK要求你通过试炼？？？？？？
+        我在TEK等着你！</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

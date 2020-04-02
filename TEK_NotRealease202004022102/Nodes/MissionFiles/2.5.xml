@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EB" name="东部电力 备用核心" type="4" icon="dlcserver" security="1" allowsDefaultBootModule="true">
+
+<ports>21</ports>
+<portsForCrack val="3"/>
+    
+<file path="sys" name="CoreCore.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="sys" name="CoreCore_Alpha1.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="sys" name="CoreCore_Alpha2.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="sys" name="CoreCore_Beta.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="sys" name="CoreCore_Pre.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="sys" name="CoreCore_V1.1.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+
+</Computer>

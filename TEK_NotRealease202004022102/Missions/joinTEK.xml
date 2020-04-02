@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="jow2" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+<!--No goals!-->
+    </goals>
+
+    <nextMission IsSilent="false">NONE</nextMission>
+    <email>
+        <sender>Tariq</sender>
+        <subject>Hello</subject>
+        <body>欢迎进入TEK！
+
+        我们是顶尖的组织，黑客中的精英！
+
+        Good luck！
+
+        另：
+        
+        我的黑客生涯很浅短，
+        
+        但是因为删log惹的麻烦却不在少数，
+        
+        所以我会在测试里检测你是否‘无影无踪’。
+        
+        如果你失误了，
+        
+        那么也同时代表着被淘汰了。
+
+        又另：组织的DHS任务管理系统出了点小问题，你先去TEK 测试任务数据库接任务吧
+         -T</body>
+        <attachments>
+        <link comp="tekShare" />
+        <link comp="tekDHS" />
+        <link comp="tekHub" />
+        </attachments>
+    </email>
+</mission>

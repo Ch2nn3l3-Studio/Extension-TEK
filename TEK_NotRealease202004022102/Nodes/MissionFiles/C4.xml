@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C4" name="Corner 员工网关" type="4" icon="chip" security="2" allowsDefaultBootModule="true">
+    
+<ports>21,22,443</ports>
+<portsForCrack val="3"/>
+
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+<dlink target="C5"/>
+<dlink target="C6"/>
+<dlink target="C7"/>
+<dlink target="C8"/>
+<dlink target="C9"/>
+<dlink target="C10"/>
+
+
+</Computer>
+

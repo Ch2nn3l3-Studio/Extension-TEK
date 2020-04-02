@@ -1,0 +1,9 @@
+config playerComp EC 0.0 $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+writel Indigo Emergency Attack $#%#$
+delay 5 $#%#$
+writel Not tek...... $#%#$
+delay 10
+trackseq $#%#$

@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerDatabase" name="#PLAYERNAME# 系统文件备份" type="4" icon="dlcpc1" security="2" ip="172.0.0.2" allowsDefaultBootModule="true">
+    
+<ports>21,22,25,80,1433,6881,554</ports>
+<portsForCrack val="0"/>
+
+</Computer>

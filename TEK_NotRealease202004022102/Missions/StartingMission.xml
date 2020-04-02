@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="getadmin" target="organ1"/>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+  <nextMission>Missions/SecondMission.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Luoyu_</sender>
+    <subject>开始</subject>
+    <body>“很高兴再次遇见你，
+
+    #PLAYERNAME#，
+
+    你是KDtos的成员，
+
+    也是身手不凡的黑客。
+
+    最近我刚好想要扩充人手，
+
+    而我又刚好想起你，
+
+    所以如果你希望加入TEK，
+
+    那么就参加我们的测试，
+
+    让我们看看你是不是别人口中所说的不简单，
+
+    因为我们只需要炉火纯青的人”
+</body>
+    <attachments>
+      <link comp="startingMissionNode" />
+    </attachments>
+  </email>
+</mission>

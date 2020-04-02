@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="CornerIncWeb" name="Corner公司 网页服务器" type="4" icon="dlcserver" security="2" ip="www.corner.top" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443,6881</ports>
+<portsForCrack val="5"/>
+
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+<file path="work" name="readme.txt">公司受理范围：
+1.文件加密（DEC加密）
+DEC可能不是最安全的加密方式 但是他是最高效的。自助加密加密过程仅需要0.001s。
+2.文件加密（DECx加密）
+DECx相比DEC要安全些，但是效率略低。加密过程约15.2s
+3.文件加密（DECxs加密）
+DECxs加密是至今最安全的加密方式。强制删除DEC头文件，破解者无处溯源。加密过程约1分钟。
+4.服务器高防服务
+防止您的服务器被DoS攻击、CC攻击等。
+5.Sara防火墙
+您的最佳防火墙选择。</file>
+
+<dlink target="C2"/>
+
+</Computer>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="startingMissionNode" name="Luoyu_ 的云空间存储" type="4" icon="laptop" security="2" allowsDefaultBootModule="true">
+    
+<ports>21</ports>
+<portsForCrack val="0"/>
+
+<file path="home/Invc" name="Invc.txt">受邀请人携带者邀请函：您的第一试炼服务器已经准备就绪。
+IP：255.32.225.0</file>
+
+</Computer>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="jow" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="delay" time="15"/>
+    </goals>
+
+    <nextMission IsSilent="false">Missions/joinTEK.xml</nextMission>
+    <email>
+        <sender>TEK_Mail_Bot</sender>
+        <subject>Wait</subject>
+        <body>请稍等......</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

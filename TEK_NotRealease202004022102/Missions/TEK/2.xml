@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="m2" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+<goal type="filedeletion" target="APC" file="Attack.exe" path="Attacker"/>
+<goal type="filedeletion" target="APC" file="AttackCore.exe" path="Attacker"/>
+<goal type="filedeletion" target="APC4" file="Attack.exe" path="Attacker"/>
+<goal type="filedeletion" target="APC4" file="AttackCore.exe" path="Attacker"/>
+    </goals>
+
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+    <posting title="饭点">某游戏公司的服务器遭受了攻击，有人想要你找出攻击者
+    Warn:完成“暂时歇息”任务后本任务可以跳过</posting>
+
+    <email>
+        <sender>UbugsoftInc</sender>
+        <subject>饭点已过</subject>
+        <body>我们的服务器因为被攻击导致过热，
+        
+        甚至传出了香味，
+        
+        影响到我们公司的工作人员，
+        
+        现在我们的员工总是有吃不完的饭。
+        
+        我需要你停下他的攻击
+
+        我们曾经利用过一些小手段找到过他的IP，
+
+        但是我们随后请的黑客却没有彻底的停止他的攻击
+
+        我们需要你一劳永逸的停止他，
+        
+        他的IP地址贴到附件里了。
+
+
+        敬上，
+
+Ubugsoft
+        </body>
+        <attachments>
+        <note title="任务目标">1.删掉他的攻击工具
+        2.他肯定还有工具藏在某处</note>
+        <link comp="APC"/>
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APC2" name="Chiklc的家用电脑" type="4" icon="dlcpc1" security="2" ip="225.122.320.102" allowsDefaultBootModule="true">
+
+<ports>22,554,21,1433</ports>
+<portsForCrack val="3"/>
+<firewall level="6" solution="Chiklc" additionalTime="2"/>
+<proxy time="1.5"/>
+
+<file path="ProgramFiles" name="DriverKing.exe">#FTP_FAST_EXE##BINARY#</file>
+
+<Memory>
+  <Commands>
+    <Command>你是怎么来到这里？</Command>
+  </Commands>
+  <Data>
+    <Block>Indigo Inc.</Block>
+  </Data>
+  <Images>
+    <Image></Image>
+  </Images>
+</Memory>
+
+</Computer>

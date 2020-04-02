@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C6" name="StaringCorner 交互数据库" type="4" icon="dlcserver" security="2" allowsDefaultBootModule="true">
+    
+<ports>443</ports>
+<portsForCrack val="101"/>
+
+<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="85,0,150" Name="InteractionDatabase">
+    <TextRecord>
+        <Title>正在维护</Title>
+        <Data>数据库正在维护</Data>
+    </TextRecord>
+    <TextRecord>
+        <Title>Corner分布式计算服务器[已挂]</Title>
+        <Data>#RADOM_IP#</Data>
+    </TextRecord>
+    <TextRecord>
+        <Title>Coner_Prometheus(用于存放开发中软件)</Title>
+        <Data>114.231.221.32</Data>
+    </TextRecord>
+</DatabaseDaemon>
+
+</Computer>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C3" name="Corner代理 #P321" type="4" icon="dlcserver" security="2" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443,6881</ports>
+<portsForCrack val="6"/>
+<firewall level="11" solution="CornerPr0xy" additionalTime="1"/>
+<proxy time="1.5"/>
+
+<dlink target="C4"/>
+
+</Computer>

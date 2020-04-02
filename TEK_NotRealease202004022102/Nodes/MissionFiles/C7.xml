@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C7" name="Coner_Prometheus" type="4" icon="dlcserver" security="2" ip="114.231.221.32" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443,6881,25</ports>
+<portsForCrack val="6"/>
+<firewall level="3" solution="PMS" additionalTime="2.3"/>
+
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<file path="bin" name="SMTPOverflow_INFO.txt">我们的服务器的25端口曾经受到这种软件的攻击......我们要尝试找到我们的漏洞，修复它。</file>
+
+<dlink target="C8"/>
+
+</Computer>

@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tekShare" name="TEK Public Share Server" type="4" icon="dlcserver" security="2" ip="255.255.255.0" allowsDefaultBootModule="true">
+    
+<ports>21</ports>
+<portsForCrack val="2"/>
+
+<uploadServerDaemon name="TEK Public Share Service" folder="Drop" needsAuth="false" color="204,116,212"/>
+
+</Computer>

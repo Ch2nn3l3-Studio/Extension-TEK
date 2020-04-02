@@ -1,0 +1,17 @@
+<ConditionalActions>
+  
+<OnConnect target="tekDHS" needsMissionComplete="false">
+<RunFunction FunctionName="setHubServer:tekHub"/>
+<AddMissionToHubServer MissionFilepath="Missions/TEK/1.xml" TargetComp="tekHub" AssignmentTag=""/>
+<AddMissionToHubServer MissionFilepath="Missions/TEK/2.xml" TargetComp="tekHub" AssignmentTag=""/>
+<AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="2.0">@#PLAYERNAME# 欢迎！！</AddIRCMessage>
+<AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="5.0">我们这里为你准备了两个合同</AddIRCMessage>
+<AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="6.0">这里是你的账户密码：</AddIRCMessage>
+<AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="7.1">!ATTACHMENT:account#%#TEK 测试任务数据库#%#1.1.1.2#%#admin#%#honeypot</AddIRCMessage>
+<RunFunction FunctionName="addFlags:CSEC_Member" FunctionValue="0"/>
+<AddConditionalActions Filepath="Actions/1.xml" DelayHost="startingMissionNode" Delay="75.6"/>
+
+</OnConnect>
+
+
+</ConditionalActions>

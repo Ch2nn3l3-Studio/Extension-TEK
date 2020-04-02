@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EK" name="EastKing" type="4" icon="dlcserver" security="1" allowsDefaultBootModule="true">
+
+<ports>21</ports>
+<portsForCrack val="3"/>
+    
+<file path="sys" name="CoreCore.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="home" name="Oh.txt">Oh,伟大的东方之王啊！</file>
+
+
+</Computer>

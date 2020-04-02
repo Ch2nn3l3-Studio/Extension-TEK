@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1" activeCheck="false" shouldIgnoreSenderVerification="false">
+  <goals>
+  <goal type="filedeletion" target="ED" file="CoreCore.sys" path="sys"/>
+  <goal type="filedeletion" target="EL" file="CoreCore.sys" path="sys"/>
+  </goals>
+
+  <nextMission>NONE</nextMission>
+  <posting title="暂时歇息(新手专用)"  >
+东部电力公司的2个供电核心发生故障。为了确保安全，他们无法在线下关掉那些核心。请帮忙。
+  </posting>
+  <email>
+    <sender>Hixer</sender>
+    <subject>暂时歇息</subject>
+    <body>#PLAYERNAME#，我们的朋友，东部供电公司的2个核心发生故障...
+他们完全没有方法关闭核心。核心已经起火。如果放任运行，结局不堪设想。
+
+-Hixer
+
+
+附件：  身份验证：东部电力公司管理中心 账号：admin 密码：gBeNtjD8U
+
+ED核心 账号：admin 密码：qintZ4
+
+EL核心 账户：admin 密码：4VpTd
+
+</body>
+    <attachments>
+<note title="任务细节">1.注意bin里的破解工具，否则以后会卡关，别说我没有提醒过你。
+2.删掉核心文件“CoreCore.dll即可。”</note>	
+	  <link comp="vaper" /> 
+    </attachments>
+  </email>
+</mission>

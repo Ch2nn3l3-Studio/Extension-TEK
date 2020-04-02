@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tekDHS" name="TEK DHS Chatting Channel #03" type="4" icon="dlcserver" security="5" ip="dhsdeamon://tek.com:300" allowsDefaultBootModule="true">
+    
+<DHSDaemon groupName="TEK Chat" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255, 255, 161" allowContractAbbandon="true">
+    <agent name="#PLAYERNAME#" color="0,209,232"/>
+    <agent name="Tariq" color="73,229,322"/>
+    <agent name="Luoyu_" color="19,248,253"/>
+    <agent name="Hixer" color="0,20,232"/>
+    <agent name="Tukar" color="73,239,322"/>
+    <agent name="IHS" color="15,240,293"/>
+    <agent name="MuQing" color="16,245,203"/>
+</DHSDaemon>
+
+<ports>211</ports>
+<portsForCrack val="1"/>
+
+<proxy time="600"/>
+<firewall level="3" solution="T3K" additionalTime="6666"/>
+
+</Computer>

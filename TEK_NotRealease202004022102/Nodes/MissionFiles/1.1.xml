@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="toolg1" name="Gote 软件实验室" type="4" icon="dlcserver" security="2" allowsDefaultBootModule="true">
+
+<ports>22,554,21,1433</ports>
+<portsForCrack val="4"/>
+
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+<!-- secret -->
+  <file path="home/0/1/2/3/4/5" name="Clockv2.exe">#CLOCK_V2_EXE#</file>
+
+</Computer>

@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ED" name="EastDragon" type="4" icon="dlcserver" security="1" allowsDefaultBootModule="true">
+
+<ports>21</ports>
+<portsForCrack val="3"/>
+    
+<adminPass pass="qintZ4"/>
+
+<file path="sys" name="CoreCore.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+
+</Computer>

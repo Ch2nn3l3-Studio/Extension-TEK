@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="clear1" name="ChaRt Workstation" type="4" icon="chip" security="2" allowsDefaultBootModule="true">
+
+<CustomConnectDisplayDaemon />
+<ports>22,554,21,1433,80,25</ports>
+<portsForCrack val="6"/>
+
+<file path="home/workspace" name="progresscore.dll">#BINARY##BINARY##BINARY##BINARY##BINARY##BINARY##BINARY##BINARY#</file>
+
+</Computer>

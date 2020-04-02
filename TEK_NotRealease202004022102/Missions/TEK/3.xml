@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="3" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+    <goal type="filedownload" target="C11" file="SecurityTracer.exe" path="bin"/>
+    </goals>
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+    <posting title="SecurityTracer">看聊天区获取信息</posting>
+
+    <email>
+        <sender>Tariq</sender>
+        <subject>获取和销毁</subject>
+        <body>下载SecurityTracer。销毁除您计算机外的所有副本。
+        不需要上传。</body>
+        <attachments>
+            <note title="重要的提示">遇到不能破的服务器回到聊天室，其他人会帮你的。</note>
+            <link comp="CornerIncWeb"/>
+        </attachments>
+    </email>
+</mission>

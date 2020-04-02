@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="organ1" name="TEK 测试前端服务器" type="4" security="0" ip="255.32.225.0" allowsDefaultBootModule="true">
+    
+<ports>9418</ports>
+<portsForCrack val="0"/>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+
+<dlink target="organ2"/>
+
+</Computer>

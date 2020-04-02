@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C2" name="Corner代理 #P623" type="4" icon="dlcserver" security="2" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443,6881</ports>
+<portsForCrack val="6"/>
+<firewall level="11" solution="CornerPr0xy" additionalTime="1"/>
+<proxy time="1.5"/>
+
+<file path="home" name="thefirewall.xml">我告诉你多少回了，所有的代理服务器的防火墙密码都是CornerPr0xy！！！
+你们身为网络安全人士，居然连小小的防火墙密码都不能记牢！！!!!</file>
+
+<dlink target="C3"/>
+
+</Computer>

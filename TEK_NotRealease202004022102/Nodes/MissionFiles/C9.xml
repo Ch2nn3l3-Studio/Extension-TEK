@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C9" name="Corner Whitelist#1" type="4" icon="dlcserver" security="2" allowsDefaultBootModule="true">
+    
+<WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+
+<ports>22,554,21,1433,443,6881,25</ports>
+<portsForCrack val="7"/>
+<proxy time="2.5"/>
+<firewall level="6" solution="Corner" additionalTime="1"/>
+<trace time="125.0"/>
+
+<dlink target="C10"/>
+
+</Computer>

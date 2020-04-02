@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APC4" name="Cliklc的备份" type="4" icon="dlcserver" security="2" ip="225.122.320.20" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443</ports>
+<portsForCrack val="5"/>
+<firewall level="6" solution="Clik1c" additionalTime="0"/>
+<trace time="101.0"/>
+
+<file path="Attacker" name="Attack.exe">#BINARY##BINARY#</file>
+<file path="Attacker" name="AttackCore.dll">#BINARY##BINARY##BINARY##BINARY#</file>
+<file path="Attacker" name="Sync.log">上一次备份：公元202年1月14日</file>
+
+</Computer>

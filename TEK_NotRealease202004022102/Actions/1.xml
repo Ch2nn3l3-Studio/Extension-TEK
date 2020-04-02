@@ -1,0 +1,36 @@
+   <ConditionalActions>
+        <Instantly needsMissionComplete="true">
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="2.0">好的 @#PLAYERNAME# 你的技术很不错</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="3.0">我向你介绍下情况</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="6.2">我是Tariq TEK第三小队的队长</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="7.2">@channel 大家都出来吧</AddIRCMessage>
+            <AddIRCMessage Author="Luoyu_" TargetComp="tekDHS" Delay="8.6">@#PLAYERNAME# 我是Luoyu_ 情报部部长兼任防守部副部长 主要负责小队安全情况</AddIRCMessage>
+            <AddIRCMessage Author="Hixer" TargetComp="tekDHS" Delay="10.3">你好,#PLAYERNAME# 我主要负责文件解密工作 是情报部副部长</AddIRCMessage>
+            <AddIRCMessage Author="Tukar" TargetComp="tekDHS" Delay="12.5">恩。@#PLAYERNAME# 我是Tukar 我负责破解工具的开发 是技术部部长</AddIRCMessage>
+            <AddIRCMessage Author="IHS" TargetComp="tekDHS" Delay="16.2">好的 #PLAYERNAME# 我是IHS 是任务部部长兼任副队长、技术部成员 主要负责合同收集工作</AddIRCMessage>
+            <AddIRCMessage Author="MuQing" TargetComp="tekDHS" Delay="20.6">额 我是MuQing 来自APT组织......</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="23.1">！MuQing！你怎么自己就进来了？不愧是APT组织的第一黑客啊！</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="25.0">@MuQing 你擅长什么？</AddIRCMessage>
+            <AddIRCMessage Author="MuQing" TargetComp="tekDHS" Delay="27.0">恩...攻击..吧</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="28.3">那么...你就是技术部副部长了！</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="30.6">@channel 现在我们要执行一个很重要 很困难的 团体任务</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="33.6">@#PLAYERNAME# 你知道TraceKill吧....</AddIRCMessage>
+            <AddIRCMessage Author="#PLAYERNAME#" TargetComp="tekDHS" Delay="36.2">当然 而且我拥有过它 我也拥有过SignalScramble</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="40.6">恩 我想 @#PLAYERNAME# 一定知道他们的特性是吧</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="43.6">我们要获取的工具 和他们的功能一样</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="45.6">他就是 SecurityTracer。</AddIRCMessage>
+            <AddIRCMessage Author="#PLAYERNAME#" TargetComp="tekDHS" Delay="50.6">？！！！！</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="53.6">没错 EnTech曾经利用那个追踪过每一个装有Hacknet的电脑</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="56.6">不过 那个程序其实是个双刃剑</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="58.6">它 其实还可以阻断Trace</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="60.6">好了 不多废话</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="61.6">不过 SecurityTracer本是为Hacknet设计的，所以它只适应Hacknet的操作系统</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="63.6">而且 在EnTech被查后 SecurityTracer的几乎所有副本被销毁</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="65.6">幸运而且不幸的是 有一家网络安全公司 也是我们的对手 得到了一份副本 并且破解了它 使他能在所以得NT内核系统上运行（包括像Hacknet这样兼容型的*nix系统）</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="66.6">但幸运多与不幸 他们至今也没发现她的真实作用</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="70.6">趁他们还没有发现SecurityTracer的真实作用前</AddIRCMessage>
+            <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="75.6">下载他们的所有副本 并删掉他们！</AddIRCMessage>
+            <AddMissionToHubServer MissionFilepath="Missions/TEK/3.xml" TargetComp="tekhub" AssignmentTag=""/>
+            <AddConditionalActions Filepath="Actions/1-1.xml" DelayHost="startingMissionNode" Delay="75.6"/>
+        </Instantly>
+    </ConditionalActions>

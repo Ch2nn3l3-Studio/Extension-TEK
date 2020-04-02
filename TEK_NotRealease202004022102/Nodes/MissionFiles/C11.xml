@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C11" name="Corner 临时文件服务器" type="4" icon="dlcserver" allowsDefaultBootModule="true">
+
+<WhitelistAuthenticatorDaemon Remote="C9"/>
+<WhitelistAuthenticatorDaemon Remote="C10"/>
+
+<ports>22,554,21,1433,443,6881,25</ports>
+<portsForCrack val="7"/>
+<firewall level="10" solution="C0rn3r1255" additionalTime="1"/>
+<trace time="125.0"/>
+
+  <file path="bin" name="SecurityTracer.exe">#SECURITYTRACER_PROGRAM#</file>
+
+</Computer>

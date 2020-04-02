@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ssssa" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+    </goals>
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Luoyu_</sender>
+        <subject>Rejoin.</subject>
+        <body>嗨。我是Luoyu_。
+        
+        是的，邀请你进入TEK那个。
+        
+        我突然收到了来自TEK的紧急通知，就赶紧来帮助你们了。
+        
+        组织的IRC已经崩了。Hub也无法使用。
+        
+        我们借此机会升级了下聊天室————我们合并成了“DHS”
+        
+        这里是DHS的IP，去吧。</body>
+        <attachments>
+            <link comp="tekDHS"/>
+        </attachments>
+    </email>
+</mission>

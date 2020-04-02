@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="secondCompleteNode" name="TEK 最终测试服务器" type="4" security="1" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433</ports>
+<portsForCrack val="4"/>
+<portRemap>21=9418</portRemap>
+<trace time="120"/>
+<firewall level="4" solution="Ltly" additionalTime="2"/>
+<proxy time="1"/>
+
+<file path="home" name="delme.txt">o.We'ret isymorn a o anKnane, Tost
+Orsjhgsm is a Ganip tht ias jydrouasjsdb Zhvaubg</file>
+
+</Computer>

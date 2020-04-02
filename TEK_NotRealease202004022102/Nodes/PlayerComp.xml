@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="#PLAYERNAME# 作战基地" allowsDefaultBootModule="false" type="1" >
+
+<adminPass pass="absolute" />
+<account username="#PLAYERNAME#" password="absolute" type="ADMIN" />
+
+<ports>22,21,1433</ports>
+<portsForCrack val="6666" />
+<trace time="45" />
+<firewall level="6" solution="FuckYouShit" additionalTime="5.0"/>
+
+<dlink target="playerDatabase"/>
+
+</Computer>

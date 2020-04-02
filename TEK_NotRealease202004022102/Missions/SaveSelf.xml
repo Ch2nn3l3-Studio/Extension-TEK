@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ssss" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedownload" target="playerDatabase" file="x-server.sys" path="sys"/>
+    </goals>
+
+    <nextMission IsSilent="true">Missions/ssss_After.xml</nextMission>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Luoyu_</sender>
+        <subject>基于Search</subject>
+        <body>TEK原始剧情设想：Search。
+        彩蛋：Luoyu_在我创造的每一个作品都有。</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

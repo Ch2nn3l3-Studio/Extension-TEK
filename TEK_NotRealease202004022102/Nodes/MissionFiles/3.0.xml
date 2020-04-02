@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APC" name="Chiklc的攻击位置" type="4" icon="dlcserver" security="2" ip="225.122.320.234" allowsDefaultBootModule="true">
+
+<ports>22,554,21,1433</ports>
+<portsForCrack val="3"/>
+<firewall level="6" solution="Chiklc" additionalTime="2"/>
+<proxy time="1.5"/>
+
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="SSLTrojan_Info.txt">这个破解器是我在#RANDOM_IP#看到的，已经摸索出了使用方法。
+  SSLTrojan.exe [端口号] -f/h/s 21/80/22
+  [端口号]后面的是旁路端口信息，破解需要先把旁路端口打开
+  -f 对应21 指FTP
+  -h 对应80 指HTTP
+  -s 对应22 指SSH</file>
+
+<file path="sys" name="eosConfiguration.dec.txt.dec.txt">EppleID=#2133255
+Connected=true
+Activated=true
+Account:admin
+Password:alpine</file>
+
+<file path="Attacker" name="Attack.exe">#BINARY##BINARY#</file>
+<file path="Attacker" name="record.txt">Ubugsoft 产品研发服务器 成功
+Ubugsoft 编译服务器 过载失败---原因：未能成功过载
+Ubugsoft 储存仓库 成功
+Ubugsoft 管理服务器 失败---原因：无法突破防御</file>
+<file path="Attacker" name="AttackCore.dll">#BINARY##BINARY##BINARY##BINARY#</file>
+<file path="Attacker" name="Info.txt">Copyright@Chiklc 公元202
+Attacker工具采用了DDoS攻击与DelSys攻击混合的方式进行攻击
+Attacker不支持攻击运行EnSec的服务器
+公元202年 By Chiklc</file>
+
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+
+      <eosDevice name="Chiklc的ePad X" id="3.0ep" icon="tablet" empty="true" passOverride="alpine">
+    <note>IPs
+Chiklc的攻击位置 225.122.320.234
+Chiklc的家用电脑 225.122.320.102
+Chiklc的工作电脑 165.321.200.0
+Cliklc的备份 225.122.320.20</note>
+    <file path="eos" name="Opshell.exe">#SHELL_OPENER_EXE#</file>
+  </eosDevice>
+
+
+</Computer>

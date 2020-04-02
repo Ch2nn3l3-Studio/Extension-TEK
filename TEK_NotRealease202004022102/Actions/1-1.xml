@@ -1,0 +1,10 @@
+<ConditionalActions>
+    <OnConnect target="C4">
+        <AddIRCMessage Author="Tariq" TargetComp="tekdhs" Delay="1">@channel 你们是不是被一个叫做Corner 员工网关的地方卡住了？</AddIRCMessage>
+        <AddIRCMessage Author="#PLAYERNAME#" TargetComp="tekdhs" Delay="2">是啊</AddIRCMessage>
+        <AddIRCMessage Author="Tariq" TargetComp="tekdhs" Delay="3">恩 我试试能不能把她的白名单核心删掉</AddIRCMessage>
+        <DeleteFile TargetComp="c4" FilePath="Whitelist" FileName="authenticator.dll" DelayHost="tekdhs" Delay="4.0"/>
+        <AddConditionalActions Filepath="Actions/1-2.xml" DelayHost="startingMissionNode" Delay="75.6"/>
+
+    </OnConnect>
+</ConditionalActions>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="APC3" name="Chiklc的工作电脑" type="4" icon="laptop" security="2" ip="165.321.200.0" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443</ports>
+<portsForCrack val="4"/>
+
+<file path="IndigoInc" name="NetSec.txt">保护网络安全是我们的重中之重。</file>
+<encryptedFile path="IndigoInc" name="Doc1.dec" extension=".txt" ip="localhost" header="Packaged by Indigo Inc." pass="secrsafest">#BINARY##BINARY##BINARY##BINARY#</encryptedFile>
+<encryptedFile path="IndigoInc" name="Doc2.dec" extension=".txt" ip="localhost" header="Packaged by Indigo Inc." pass="secrsafest">#BINARY##BINARY##BINARY##BINARY#</encryptedFile>
+<encryptedFile path="IndigoInc" name="Doc3.dec" extension=".txt" ip="localhost" header="Packaged by Indigo Inc." pass="secrsafest">#BINARY##BINARY##BINARY##BINARY#</encryptedFile>
+<encryptedFile path="IndigoInc" name="Doc4.dec" extension=".txt" ip="localhost" header="Packaged by Indigo Inc." pass="secrsafest">#BINARY##BINARY##BINARY##BINARY#</encryptedFile>
+<encryptedFile path="IndigoInc" name="Doc5.dec" extension=".txt" ip="localhost" header="Packaged by Indigo Inc." pass="secrsafest">#BINARY##BINARY##BINARY##BINARY#</encryptedFile>
+<encryptedFile path="IndigoInc" name="Doc6.dec" extension=".txt" ip="localhost" header="Packaged by Indigo Inc." pass="secrsafest">#BINARY##BINARY##BINARY##BINARY#</encryptedFile>
+
+</Computer>

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C8" name="Corner_Order" type="4" icon="dlcpc2" security="2"  allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433,443,6881,25</ports>
+<portsForCrack val="6"/>
+<firewall level="3" solution="PMS" additionalTime="2.3"/>
+
+<file path="bin" name="SecurityTracer.txt">这里曾经存放过SecurityTracer......但被我们转移了......</file>
+
+<memoryDumpFile name="1.md" path="bin">
+    <Memory>
+        <Commands>
+            <Command>connect localhost</Command>
+            <Command>cd bin/</Command>
+            <Command>ls</Command>
+            <Command>mv SecurityTracer.exe *IP_Hided*/bin/SecurityTracer.exe</Command>
+            <Command>dc</Command>
+        </Commands>
+        <Data>
+            <Block>1 个文件已被移动，0个文件移动时出错</Block>
+        </Data>
+        <Images>
+        </Images>
+    </Memory>
+</memoryDumpFile>
+
+</Computer>

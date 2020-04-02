@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="C5" name="StaringCorner 工作区" type="4" icon="DLCPC1" security="2" allowsDefaultBootModule="true">
+    
+<ports>21,22,1433,6881,554</ports>
+<portsForCrack val="2"/>
+
+<file path="sys" name="eosDeviceConfig.cfg">DeviceID:#2133
+DeviceName:Staring共享设备1A
+DeviceAccount:admin
+DevicePassword:alpine
+DeviceConnection:1(Connected)</file>
+
+<dlink target="C6"/>
+
+
+      <eosDevice name="Staring 共享设备1A" id="C5-1-6" icon="tablet" empty="true" passOverride="alpine">
+    <note>数据库密码
+Staring工作区终于有自己的交互数据库了！为了便于记忆，我把密码记录下来：
+账户：admin 密码：StaRingCoRner_Pass21335642</note>
+  </eosDevice>
+
+</Computer>

@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="tekHub" name="TEK 测试任务数据库" type="4" icon="DLCServer" security="2" ip="1.1.1.2" allowsDefaultBootModule="true">
+    
+<missionHubServer groupName="CSEC" serviceName="TEK 任务数据库" missionFolderPath="Missions/dhs" themeColor="200,10,10" lineColor="255,80,80" backgroundColor="20,20,20" allowAbandon="false"/>
+
+<adminPass pass="honeypot"/>
+
+<file path="home" name="test.txt">这只是测试用的任务数据库！</file>
+
+</Computer>

@@ -1,0 +1,4 @@
+Errors Found. Writing report to Extensions/TEK/report.txt
+
+Mission Errors for Extensions/TEK/Missions/TEK/1.xml:
+File contains missionEnd, but it's not being correctly parsed in. It might be out of order in the file.

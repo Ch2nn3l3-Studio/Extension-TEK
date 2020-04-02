@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="organ3" name="TEK 高级服务器" type="4" security="1" allowsDefaultBootModule="true">
+    
+<ports>22,554,21,1433</ports>
+<portsForCrack val="4"/>
+<portRemap>21=9418</portRemap>
+<trace time="120"/>
+<firewall level="8" solution="0rgan1sm" additionalTime="0"/>
+
+
+<dlink target="secondCompleteNode"/>
+
+</Computer>

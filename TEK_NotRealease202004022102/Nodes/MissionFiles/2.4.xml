@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ES" name="EastSnake" type="4" icon="dlcserver" security="1" allowsDefaultBootModule="true">
+
+<ports>21</ports>
+<portsForCrack val="3"/>
+    
+<file path="sys" name="CoreCore.dll">#BINARYSMALL##BINARYSMALL##BINARYSMALL#</file>
+<file path="home" name="LeastBug.txt">我发现这个核心几乎从来没有bug......</file>
+
+</Computer>

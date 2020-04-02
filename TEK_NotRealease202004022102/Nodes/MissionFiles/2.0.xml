@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EC" name="东部电力公司管理中心" type="4" icon="dlcserver" security="5" ip="www.ee.com" allowsDefaultBootModule="true">
+
+<ports>443</ports>
+<portsForCrack val="101"/>
+
+<adminPass pass="gBeNtjD8U"/>
+    
+<file path="WebPage" name="index.html">东部电力公司，为您提供最优质的服务！
+我们的电力稳定。东部电力公司拥有四核心，即使4个核心全部损坏还有一个备用核心。</file>
+
+<file path="home" name="main.txt">“我们的目标任务就是用户们的期望，我们的工作任务就是用户们的希望"
+在众人的眼中，我们要努力创造最好的形象：
+1.顾客至上
+2.绝不怠工
+3.临危不惧
+</file>
+
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="SSLTrojan_Info.txt">这个破解器是我在#RANDOM_IP#看到的，已经摸索出了使用方法。
+  SSLTrojan.exe [端口号] -f/h/s 21/80/22
+  [端口号]后面的是旁路端口信息，破解需要先把旁路端口打开
+  -f 对应21 指FTP
+  -h 对应80 指HTTP
+  -s 对应22 指SSH</file>
+
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+
+<dlink target="ED"/>
+<dlink target="EK"/>
+<dlink target="EL"/>
+<dlink target="ES"/>
+<dlink target="EB"/>
+
+</Computer>
