@@ -2,6 +2,8 @@
     <OnConnect target="C11">
         <AddIRCMessage Author="#PLAYERNAME#" TargetComp="tekDHS" Delay="1">@channel 我得到SecurityTracer了！！！！！！！！！！</AddIRCMessage>
         <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="2">@#PLAYERNAME# 恭喜！！</AddIRCMessage>
-        <AddIRCMessage Author="Luoyu" TargetComp="tekDHS" Delay="3.2">......</AddIRCMessage>
+        <AddIRCMessage Author="Luoyu_" TargetComp="tekDHS" Delay="3.2">......</AddIRCMessage>
+        <AddIRCMessage Author="Tariq" TargetComp="tekDHS" Delay="3.2">?!! @Luoyu_ 你在做什么？</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="tekDHS" Delay="3.2">@channel #TEK_CHAT_CHANNEL# 管理员“Administrator” 已踢出Tariq</AddIRCMessage>
     </OnConnect>
 </ConditionalActions>
